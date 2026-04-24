@@ -17,6 +17,8 @@ export default function Hero() {
         </p>
       </div>
 
+      <div className="suport-visual">
+    <img className="avt-hero" alt="" src="./src/assets/img/avt-hero.png" />
       <HeroTech />
       </div>
       </div>
