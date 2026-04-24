@@ -13,19 +13,12 @@ export default function Hero() {
           Desenvolvedor Front-End focado em interfaces modernas e funcionais.
         </p>
         <p>
-          Crio experiencias rapidas, responsivas e bem estruturadas, com atencao
-          a usabilidade e ao detalhe.
+          Crio experiências rápidas, responsivas e bem estruturadas, com atenção à usabilidade e ao detalhe.
         </p>
       </div>
 
       <HeroTech />
       </div>
-
-       <div className="tabs">
-        <span className="tab">Sites Responsivos</span>
-        <span className="tab">Interacoes com JS</span>
-        <span className="tab">Landing Pages Animadas</span>
-        <span className="tab">Prototipos Funcionais</span>
       </div>
     </section>
   );

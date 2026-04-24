@@ -19,7 +19,6 @@ export default function HeroTech() {
           <img 
             src={tech.icon} 
             alt={tech.name} 
-            style={{ width: '50px', height: '50px', display: 'block' }} 
           />
         </div>
       ))}
