@@ -1,6 +1,7 @@
 import Header from "./sections/header";
 import Hero from "./sections/hero";
 import { useState, useEffect } from "react";
+import Projects from "./sections/projects";
 
 function App() {
   const [section, setSection] = useState("hero");
@@ -10,6 +11,7 @@ function App() {
       <Header section={section} setSection={setSection} />
       <main>
       {section === "hero" && <Hero setSection={setSection} />}
+      {section === "projects" && <Projects setSection={setSection} />}
       </main>
     </>
   );
