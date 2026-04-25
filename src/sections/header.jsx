@@ -1,24 +1,24 @@
-export default function Header() {
+export default function Header({setSection}) {
   return (
-    <header class="header">
-      <div class="logo">Reviero-dev</div>
+    <header className="header">
+      <div className="logo">Reviero-dev</div>
 
       <nav className="navbar" id="navbar">
         <ul>
           <li>
-            <a href="#hero">Home</a>
+            <a onClick={() => setSection("hero")}>Home</a>
           </li>
 
           <li>
-            <a href="#services">Projetos</a>
+            <a onClick={() => setSection("projects")}>Projetos</a>
           </li>
 
           <li>
-            <a href="#about">Sobre Me</a>
+            <a onClick={() => setSection("about")}>Sobre Me</a>
           </li>
 
           <li>
-            <a href="#contact">Contato</a>
+            <a onClick={() => setSection("contact")}>Contato</a>
           </li>
         </ul>
       </nav>
